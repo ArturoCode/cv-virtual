@@ -12,6 +12,11 @@
   font-style: normal;
 }
 
+#color{
+  color:#f9bf3f;
+  font-weight: bold;
+}
+
 * {
   box-sizing: border-box;
 }

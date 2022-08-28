@@ -1,65 +1,13 @@
 export default {
-  skills: [
-    {
-      title: "Frontend",
-      skillName: "HTML, XML, Java, JavaScript, jQuery",
-      color: "1",
-      percentage: "80",
-    },
-    {
-      title: "Frameworks/Libraries",
-      skillName: "Symfony",
-      color: "2",
-      percentage: "60",
-    },
-    {
-      title: "Backend",
-      skillName: "SQL, PHP, Python, Git, Markdown, npm",
-      color: "3",
-      percentage: "75",
-    },
-    {
-      title: "Design",
-      skillName: "Bootstrap, CSS, SASS, Mobile First, Figma",
-      color: "4",
-      percentage: "85",
-    },
-    {
-      title: "Tools",
-      skillName: "GitHub, npm, Postman, DevTools, Slack",
-      color: "5",
-      percentage: "75",
-    },
-    {
-      title: "Editor",
-      skillName: "VSCode, Notepad++, Eclipse IDE, Markdown",
-      color: "6",
-      percentage: "80",
-    },
-
-    {
-      title: "Applications",
-      skillName: "Notion, Office, Canva, Blogger, Cloud Storage",
-      color: "7",
-      percentage: "80",
-    },
-
-    {
-      title: "Systems",
-      skillName: "Windows Server/Desktop, Linux (Ubuntu, Mint)",
-      color: "8",
-      percentage: "85",
-    },
-  ],
   projects: {
     web: [
       {
-        projectName: "Página Web",
-        image: "images/portfolio_arturocode.jpg",
+        projectName: "Página Web & Blog Tech",
+        image: "images/portfolio_arturocode.png",
         summary:
-          "Página web que he diseñado con varias secciones para recoger mi formación, experiencia y proyectos como desarrollador web.",
-        preview: "https://arturocode.github.io/",
-        techStack: ["HTML", "Bootstrap", "CSS", "JavaScript"],
+          "Página web que he diseñado con Notion & Super con varias secciones para recoger mi formación, experiencia y proyectos como desarrollador web. Escogí este sistema sobre todo por el mantenimiento sencillo de un blog",
+        preview: "https://arturocode.super.site/",
+        techStack: ["Notion", "Super", "CSS", "Markdown"],
       },
       {
         projectName: "Linktree (Arturo's Version)",
@@ -169,17 +117,16 @@ export default {
     {
       title: "Formación complementaria",
       duration: "2020 - actualidad",
-      subtitle: "OpenWebinars, Platzi, Crehana...",
+      subtitle: "OpenWebinars, Platzi, Benowu, Crehana...",
       details: [
         "Formación complementaria en varias plataformas de educación del ámbito tecnológico. Puedes consultarla en arturocode.github.io/cursos/",
       ],
       tags: [
-        "Python",
-        "GIT",
-        "Markdown",
-        "NPM",
-        "Asincronismo JS",
-        "Responsive Design",
+        "React", "Python",
+        "APIs", "Git",
+        "Postman", "GitHub",
+        "Figma", "Markdown",
+        "npm", "Super & Notion",
       ],
     },
     {
