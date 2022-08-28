@@ -2,21 +2,21 @@ export default {
   skills: [
     {
       title: "Frontend",
-      skillName: "HTML, XML, Java, JavaScript, jQuery",
+      skillName: "HTML, Java, jQuery, JavaScript",
       color: "1",
       percentage: "80",
     },
     {
       title: "Frameworks/Libraries",
-      skillName: "Symfony",
+      skillName: "Symfony, React",
       color: "2",
-      percentage: "60",
+      percentage: "70",
     },
     {
       title: "Backend",
       skillName: "SQL, PHP, Python, Git, Markdown, npm",
       color: "3",
-      percentage: "75",
+      percentage: "70",
     },
     {
       title: "Design",
