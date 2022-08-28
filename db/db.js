@@ -57,7 +57,7 @@ export default {
         projectName: "Página Web & Blog Tech",
         image: "images/portfolio_arturocode.png",
         summary:
-          "Página web que he diseñado con Notion & Super con varias secciones para recoger mi formación, experiencia y proyectos como desarrollador web. Escogí este sistema sobre todo por el mantenimiento sencillo de un blog",
+          "Página web que he diseñado para recoger mi formación, proyectos y experiencia.",
         preview: "https://arturocode.super.site/",
         techStack: ["Notion", "Super", "CSS", "Markdown"],
       },
@@ -65,7 +65,7 @@ export default {
         projectName: "Linktree (Arturo's Version)",
         image: "images/portfolio_linktree.png",
         summary:
-          "Una One-Page sencilla y adaptada a mis redes y proyectos como desarrollador web. Alternativa a sitios de empresas como Linktree o Carrd.",
+          "Una One-Page sencilla y adaptada a mis redes y proyectos.",
         preview: "https://arturocode.github.io/links/",
         techStack: ["HTML", "CSS", "Bootstrap", "Alternative:", "Linktree", "Carrd"],
       },
@@ -73,7 +73,7 @@ export default {
         projectName: "Galería de Cursos",
         image: "images/portfolio_galeriacursos.png",
         summary:
-          "Una portfolio al estilo de una galería de imágenes resonsive para acceder a los cursos que he realizado y sus diplomas.",
+          "Un portfolio al estilo de una galería de imágenes para acceder a mis cursos y sus diplomas.",
         preview: "https://arturocode.github.io/cursos/",
         techStack: ["HTML", "CSS", "Portfolio", "Gallery-Images"],
       },
@@ -83,7 +83,7 @@ export default {
         projectName: "Flights of a Dreamer",
         image: "images/portfolio_flightsdreamer.png",
         summary:
-          "Blog literario ganador de los Premios Blogger Lit Con 2017 a Mejor Blog, Mejor Diseño y Blog más constante.",
+          "Blog literario ganador de los Premios Blogger Lit Con 2017.",
         preview: "http://www.flightsofadreamer.blogspot.com",
         techStack: ["HTML", "CSS", "Blogger", "JavaScript"],
       },
@@ -91,7 +91,7 @@ export default {
         projectName: "Arturo Urbanos - Wordpress",
         image: "images/portfolio_arturourbanos.png",
         summary:
-          "Página web como autor, redactor y lector profesional con información de obras, eventos, actualizaciones y más.",
+          "Página web como autor, redactor y lector profesional con información de obras, eventos y más.",
         preview: "https://arturourbanosv.wordpress.com/",
         techStack: ["Wordpress"],
       },
