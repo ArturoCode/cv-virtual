@@ -1,4 +1,56 @@
 export default {
+  skills: [
+    {
+      title: "Frontend",
+      skillName: "HTML, XML, Java, JavaScript, jQuery",
+      color: "1",
+      percentage: "80",
+    },
+    {
+      title: "Frameworks/Libraries",
+      skillName: "Symfony",
+      color: "2",
+      percentage: "60",
+    },
+    {
+      title: "Backend",
+      skillName: "SQL, PHP, Python, Git, Markdown, npm",
+      color: "3",
+      percentage: "75",
+    },
+    {
+      title: "Design",
+      skillName: "Bootstrap, CSS, SASS, Mobile First, Figma",
+      color: "4",
+      percentage: "85",
+    },
+    {
+      title: "Tools",
+      skillName: "GitHub, npm, Postman, DevTools, Slack",
+      color: "5",
+      percentage: "75",
+    },
+    {
+      title: "Editor",
+      skillName: "VSCode, Notepad++, Eclipse IDE, Markdown",
+      color: "6",
+      percentage: "80",
+    },
+
+    {
+      title: "Applications",
+      skillName: "Notion, Office, Canva, Blogger, Cloud Storage",
+      color: "7",
+      percentage: "80",
+    },
+
+    {
+      title: "Systems",
+      skillName: "Windows Server/Desktop, Linux (Ubuntu, Mint)",
+      color: "8",
+      percentage: "85",
+    },
+  ],
   projects: {
     web: [
       {
