@@ -1,4 +1,6 @@
 export default {
+  skills: [
+  ],
   projects: {
     web: [
       {
