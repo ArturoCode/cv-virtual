@@ -1,9 +1,11 @@
-# Este es mi portfolio como desarrollador web y técnico de sistemas y redes
+# CV Virtual 
+
+## Técnico Superior de Desarrollo de Aplicaciones Web y Sistemas y Redes
 
 ### Es una sola página en la que están estas secciones:
 
 - Breve información sobre mí
-- Habilidades
+- Idiomas
 - Proyectos Web (Destacados, Literarios y Freelance)
 - Experiencia laboral
 - Educación y cursos
