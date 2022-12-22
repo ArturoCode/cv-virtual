@@ -2,8 +2,8 @@ import { default as data } from "../db/db.js";
 
 // HABILIDADES
 
-function populateSkills(items, id) {
-  let skillsTag = document.getElementById(id);
+function populateLanguages(items, id) {
+  let languagesTag = document.getElementById(id);
   for (let i = 0; i < items.length; i++) {
     let h3 = document.createElement("h3");
     h3.innerHTML = items[i].skillName;
@@ -25,7 +25,7 @@ function populateSkills(items, id) {
     divAnimateBox.className = "col-md-6 animate-box";
     divAnimateBox.append(divProgressWrap);
 
-    skillsTag.append(divAnimateBox);
+    languagesTag.append(divAnimateBox);
   }
 }
 
@@ -215,7 +215,7 @@ function populateLinks(items, id) {
 
 //LLAMADAS A FUNCIONES
 
-populateSkills(data.skills, "skills");
+populateLanguages(data.languages, "languages");
 
 populateProjects(data.projects.web, "web-projects");
 populateProjects(data.projects.literature, "literature-projects");

@@ -1,84 +1,62 @@
 export default {
-  skills: [
+  languages: [
     {
-      title: "Frontend",
-      skillName: "HTML, Java, jQuery, JavaScript",
+      title: "Spanish",
+      skillName: "Spanish",
       color: "1",
-      percentage: "80",
+      percentage: "100",
     },
     {
-      title: "Frameworks/Libraries",
-      skillName: "Symfony, React",
+      title: "English",
+      skillName: "English (C1/FCE)",
       color: "2",
-      percentage: "70",
-    },
-    {
-      title: "Backend",
-      skillName: "SQL, PHP, Python, Git, Markdown, npm",
-      color: "3",
-      percentage: "70",
-    },
-    {
-      title: "Design",
-      skillName: "Bootstrap, CSS, SASS, Mobile First, Figma",
-      color: "4",
-      percentage: "85",
-    },
-    {
-      title: "Tools",
-      skillName: "GitHub, npm, Postman, DevTools, Slack",
-      color: "5",
-      percentage: "75",
-    },
-    {
-      title: "Editor",
-      skillName: "VSCode, Notepad++, Eclipse IDE, Markdown",
-      color: "6",
-      percentage: "80",
-    },
-
-    {
-      title: "Applications",
-      skillName: "Notion, Office, Canva, Blogger, Cloud Storage",
-      color: "7",
-      percentage: "80",
-    },
-
-    {
-      title: "Systems",
-      skillName: "Windows Server/Desktop, Linux (Ubuntu, Mint)",
-      color: "8",
       percentage: "85",
     },
   ],
   projects: {
     web: [
       {
-        projectName: "Página Web & Blog Tech",
-        image: "images/portfolio_arturocode.png",
+        projectName: "ArturoCode - Portfolio",
+        image: "",
         summary:
-          "Página web que he diseñado para recoger mi formación, proyectos y experiencia.",
-        preview: "https://arturocode.super.site/",
-        techStack: ["Notion", "Super", "CSS", "Markdown"],
+          "Próximamente.",
+        preview: "#",
+        techStack: [""],
       },
       {
         projectName: "Linktree (Arturo's Version)",
         image: "images/portfolio_linktree.png",
         summary:
-          "Una One-Page sencilla y adaptada a mis redes y proyectos.",
+          "Una One-Page sencilla y adaptada a mis redes y proyectos como desarrollador web.",
         preview: "https://arturocode.github.io/links/",
         techStack: ["HTML", "CSS", "Bootstrap", "Alternative:", "Linktree", "Carrd"],
       },
       {
-        projectName: "Galería de Cursos",
-        image: "images/portfolio_galeriacursos.png",
+        projectName: "Super&Notion Web",
+        image: "images/portfolio_arturocode.png",
         summary:
-          "Un portfolio al estilo de una galería de imágenes para acceder a mis cursos y sus diplomas.",
-        preview: "https://arturocode.github.io/cursos/",
-        techStack: ["HTML", "CSS", "Portfolio", "Gallery-Images"],
+          "Página web minimalista para recoger mi formación, proyectos y experiencia. Alternativa más fácil de mantener y actualizar para un usuario común.",
+        preview: "https://arturocode.super.site/",
+        techStack: ["Notion", "Super", "CSS", "Markdown"],
       },
     ],
     literature: [
+      {
+        projectName: "Landing Book Page",
+        image: "",
+        summary:
+          "Próximamente.",
+        preview: "#",
+        techStack: [""],
+      },
+      {
+        projectName: "Library App",
+        image: "",
+        summary:
+          "Próximamente.",
+        preview: "#",
+        techStack: [""],
+      },
       {
         projectName: "Flights of a Dreamer",
         image: "images/portfolio_flightsdreamer.png",
@@ -87,35 +65,55 @@ export default {
         preview: "http://www.flightsofadreamer.blogspot.com",
         techStack: ["HTML", "CSS", "Blogger", "JavaScript"],
       },
-      {
-        projectName: "Arturo Urbanos - Wordpress",
-        image: "images/portfolio_arturourbanos.png",
-        summary:
-          "Página web como autor, redactor y lector profesional con información de obras, eventos y más.",
-        preview: "https://arturourbanosv.wordpress.com/",
-        techStack: ["Wordpress"],
-      },
-      {
-        projectName: "Arturo Urbanos - Carrd",
-        image: "images/portfolio_carrd.png",
-        summary:
-          "He hecho varias One-Pages sencillas y responsive con la información a un solo click. Esta es la que uso para mi trabajo literario.",
-        preview: "https://arturourbanos.carrd.co/",
-        techStack: ["Carrd"],
-      },
     ],
     freelance: [
       {
-        projectName: "Lorem Ipsum",
+        projectName: "Excursiones Íbice",
         image: "",
         summary:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        preview: "",
+          "Trabajo Final del Grado Superior de Desarrollo de Aplicaciones Web. Excursiones Íbice es una página para reservar excursiones personalizadas por lugares de España.",
+        preview: "https://github.com/ArturoCode/excursiones-ibice",
+        techStack: ["Node.js, Express, JavaScript, Railway, HTML, CSS, Bootstrap, MySQL..."],
+      },
+      {
+        projectName: "@handle | Social",
+        image: "",
+        summary:
+          "Próximamente.",
+        preview: "#",
+        techStack: [""],
+      },
+      {
+        projectName: "Tu-Wiki",
+        image: "",
+        summary:
+          "Próximamente.",
+        preview: "#",
         techStack: [""],
       },
     ],
   },
   experience: [
+    {
+      title: "Acevedo S.L.",
+      duration: "Sept. 2022 - actualidad",
+      subtitle: "Full Stack Developer",
+      details: [
+        "Desarrollo de aplicaciones web full-stack (frontend y backend) cloud native usando MEAN stack.",
+        "Uso de herramientas de despliegue como Docker y Docker Compose.",
+        "Control de ramas y versiones en Git y gestión de repositorios en GitHub. ",
+      ],
+      tags: [
+        "Angular",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Docker",
+        "JavaScript/TypeScript",
+        "GitHub",
+        "Ubuntu",
+      ],
+    },
     {
       title: "AlcalaBC - Colegio de Registradores de España",
       duration: "Jun. 2019 - Jul. 2019",
@@ -154,10 +152,10 @@ export default {
   education: [
     {
       title: "Desarrollo de Aplicaciones Web",
-      duration: "2021 - actualidad",
+      duration: "2020 - 2022",
       subtitle: "IES Juan de la Cierva, Madrid",
       details: [
-        "Desarrollo, implementación y mantenimiento de aplicaciones web. Programación Java, JavaScript, PHP. Diseño de interfaces web. Instalación de Sistemas en Red. Bases de datos, Lenguajes de Marcas.",
+        "Desarrollo, implementación y mantenimiento de aplicaciones web. Programación Java, JavaScript, PHP. Diseño de interfaces web. Instalación de Sistemas en Red y despliegue de aplicaciones. Bases de datos SQL, lenguajes de marcas y entornos de desarrollo.",
       ],
       tags: [
         "Windows", "Ubuntu",
@@ -177,6 +175,7 @@ export default {
         "React", "Python",
         "APIs", "Git",
         "Postman", "GitHub",
+        "jQuery", "GitLab",
         "Figma", "Markdown",
         "npm", "Super & Notion",
       ],
@@ -191,8 +190,8 @@ export default {
       tags: [
         "Windows", "Linux",
         "Redes",
-        "Ofimática",
-        "Montaje",
+        "Office Suite",
+        "Montaje", "Seguridad informática",
         "HTML", "CSS", "XML", "Notepad++", "Joomla",
       ],
     },
