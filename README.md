@@ -13,7 +13,7 @@
 
 <table>
     <tr>
-        <td><img src="images/portfolio_pc.jpg" /></td>
-        <td><img src="images/portfolio_movil.jpg" /></td>
+        <td><img src="images/cv_pc.jpg" /></td>
+        <td><img src="images/cv_movil.jpg" /></td>
     </tr>
 </table>
