@@ -73,17 +73,15 @@ export default {
     freelance: [
       {
         projectName: "Excursiones Íbice",
-        image: "",
+        image: "images/portfolio_ibice.png",
         summary:
-          "Trabajo Final del Grado Superior de Desarrollo de Aplicaciones Web. Excursiones Íbice es una página para reservar excursiones personalizadas por lugares de España.",
+          "Trabajo Final del Grado Superior de Desarrollo de Aplicaciones Web.",
         preview: "https://github.com/ArturoCode/excursiones-ibice",
         techStack: [
           "Node.js",
           "Express",
           "JavaScript",
-          "Railway",
-          "HTML",
-          "CSS",
+          "HTML&CSS",
           "Bootstrap",
           "MySQL...",
         ],
