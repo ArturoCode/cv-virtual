@@ -58,6 +58,10 @@
     <script src="js/ext/modernizr-2.6.2.min.js"></script>
     <!--Script con el contenido variable-->
     <script type="module" src="js/populateHTML.js"></script>
+
+    <!--Scripts para el formulario-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript"> emailjs.init('TKdgS_muqGQh6VR4d') </script>
   </head>
 
   <body>
@@ -277,18 +281,34 @@
                 <p>
                   Si quieres ponerte en contacto conmigo, ya sea para proponerme
                   un proyecto, consultarme alguna duda o simplemente para decir
-                  hola, puedes enviarme un correo electrónico a través de este
+                  "hola", puedes enviarme un correo electrónico a través de este
                   formulario:
                 </p>
                 <div align="center">
-                  <script
+                  <!--<script
                     src="https://apps.elfsight.com/p/platform.js"
                     defer
                   ></script>
                   <div
                     class="elfsight-app-ad877d91-2c48-402b-a758-fb930ba0f66f"
-                  ></div>
-                </div>
+                  ></div>-->
+
+                    <form id="form">
+                    <div class="field">
+                      <label for="user_name">Tu nombre*</label>
+                      <input required type="text" name="user_name" id="user_name" placeholder="Ej: Jon Snow"></input>
+                    </div>
+                    <div class="field">
+                      <label for="user_email">Tu email*</label>
+                      <input required type="email" name="user_email" id="user_email" placeholder="Ej: jon@snow.com"></input>
+                    </div>
+                    <div class="field">
+                      <label for="message">Tu mensaje*</label>
+                      <textarea required name="message" id="message" rows="6" placeholder="Escribe tu mensaje aquí"></textarea>
+                    </div>
+                    <input type="submit" id="button" value="Enviar"></input>
+                  </form>
+
               </div>
             </div>
           </section>
@@ -305,7 +325,7 @@
                         <div class="copyright">
                           <h4 align="center">
                             Hecho con ❤️ por
-                            <a href="https://github.com/ArturoCode"
+                            <a href="https://arturocode.github.io/"
                               >ArturoCode</a
                             >
                             <small class="block"
@@ -341,6 +361,10 @@
     <script src="js/ext/jquery.waypoints.min.js"></script>
     <script src="js/ext/jquery.flexslider-min.js"></script>
     <script src="js/ext/jquery.countTo.js"></script>
+
+    <!-- Script el formulario-->
+
+    <script src="js/form.js"></script>
 
     <!-- Bootstrap -->
     <script src="js/ext/bootstrap.min.js"></script>

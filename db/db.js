@@ -16,89 +16,97 @@ export default {
   projects: {
     web: [
       {
-        projectName: "ArturoCode",
-        image: "",
-        summary: "Próximamente.",
-        preview: "#",
-        techStack: [""],
+        projectName: "ArturoCode | Desarrollador web",
+        image: "images/cv-portfoliocode.png",
+        summary: "Una página web / portfolio dedicada a mi trabajo, experiencia y formación",
+        preview: "https://arturocode.github.io/",
+        techStack: [
+          "React",
+          "JavaScript",
+          "CSS...",
+        ],
       },
       {
         projectName: "Linktree (Arturo's Version)",
-        image: "images/portfolio_linktree.png",
+        image: "images/cv-linkscode.png",
         summary:
           "Una One-Page sencilla y adaptada a mis redes y proyectos como desarrollador web.",
         preview: "https://arturocode.github.io/links/",
         techStack: [
           "HTML",
           "CSS",
-          "JS",
-          "Bootstrap",
-          "Alternative:",
-          "Linktree",
-          "Carrd",
+          "Bootstrap..."
         ],
       },
       {
-        projectName: "Super&Notion Web",
-        image: "images/portfolio_arturocode.png",
+        projectName: "Blog Tech ⚡ Super & Notion",
+        image: "",
         summary:
-          "Página web alternativa y minimalista para recoger mi formación, proyectos y experiencia. Más fácil de mantener y actualizar para un usuario común.",
-        preview: "https://arturocode.super.site/",
+          "Blog minimalista. También puede ser una web completa fácil de mantener para un usuario común.",
+        preview: "#",
         techStack: ["Notion", "Super", "CSS", "Markdown"],
       },
     ],
     literature: [
+      {
+        projectName: "Portfolio literario",
+        image: "images/cv-portfoliowriter.png",
+        summary: "Portfolio literario para profesionales del sector.",
+        preview: "https://arturourbanos-portfolio.vercel.app/",
+        techStack: ["HTML", "CSS", "JavaScript", "jQuery..."],
+      },
+      {
+        projectName: "Flights of a Dreamer",
+        image: "images/cv-flightsofadreamer.png",
+        summary: "Blog literario ganador de los Premios Blogger Lit Con 2017.",
+        preview: "http://www.flightsofadreamer.blogspot.com",
+        techStack: ["HTML", "CSS", "Blogger", "JavaScript"],
+      },
       {
         projectName: "Landing Book Page",
         image: "",
         summary: "Próximamente.",
         preview: "#",
         techStack: [""],
-      },
-      {
-        projectName: "Tu-Biblioteca",
-        image: "",
-        summary: "Próximamente.",
-        preview: "#",
-        techStack: [""],
-      },
-      {
-        projectName: "Flights of a Dreamer",
-        image: "images/portfolio_flightsdreamer.png",
-        summary: "Blog literario ganador de los Premios Blogger Lit Con 2017.",
-        preview: "http://www.flightsofadreamer.blogspot.com",
-        techStack: ["HTML", "CSS", "Blogger", "JavaScript"],
-      },
+      }
     ],
     freelance: [
       {
         projectName: "Excursiones Íbice",
-        image: "images/portfolio_ibice.png",
+        image: "images/cv-ibice.png",
         summary:
           "Trabajo Final del Grado Superior de Desarrollo de Aplicaciones Web.",
         preview: "https://github.com/ArturoCode/excursiones-ibice",
         techStack: [
           "Node.js",
+          "JS",
           "Express",
-          "JavaScript",
           "HTML&CSS",
-          "Bootstrap",
           "MySQL...",
         ],
       },
       {
         projectName: "@tu-usuario | Social",
-        image: "",
-        summary: "Próximamente.",
-        preview: "#",
-        techStack: [""],
+        image: "images/cv-linkswriter.png",
+        summary: "One-Page personalizada para todo tipo de creadores de contenido.",
+        preview: "https://arturourbanos-links.vercel.app/",
+        techStack: [
+          "HTML",
+          "CSS",
+          "Bootstrap..."
+        ],
       },
       {
         projectName: "Tu-Wiki",
         image: "",
         summary: "Próximamente.",
         preview: "#",
-        techStack: [""],
+        techStack: [
+          "MongoDB",
+          "Express",
+          "Angular",
+          "node.js..."
+        ],
       },
     ],
   },
@@ -106,11 +114,9 @@ export default {
     {
       title: "Acevedo S.L.",
       duration: "Sept. 2022 - actualidad",
-      subtitle: "Full Stack Developer",
+      subtitle: "Full Stack Developer. Contrato de prácticas",
       details: [
-        "Desarrollo de aplicaciones web full-stack (frontend y backend) cloud native usando MEAN stack.",
-        "Uso de herramientas de despliegue como Docker y Docker Compose.",
-        "Control de ramas y versiones en Git y gestión de repositorios en GitHub. ",
+        "Desarrollo de aplicaciones web (frontend y backend) cloud native con MEAN stack. Herramientas de despliegue como Docker. Control de ramas, versiones y repositorios.",
       ],
       tags: [
         "Angular",
@@ -118,17 +124,17 @@ export default {
         "Express",
         "MongoDB",
         "Docker",
-        "JavaScript/TypeScript",
+        "TypeScript",
         "GitHub",
         "Ubuntu",
       ],
     },
     {
       title: "AlcaláBC - Colegio de Registradores de España",
-      duration: "Jun. 2019 - Jul. 2019",
+      duration: "Jun. 2019 - Aug. 2019",
       subtitle: "Técnico de soporte de TI",
       details: [
-        "Soporte técnico de programas (Deposito digital D2, Legalia, Internet Explorer, Java) y el funcionamiento relacionado con el portal del Colegio de Registradores de España (http://www.registradores.org/)",
+        "Soporte técnico de programas (Deposito digital D2, Legalia, Internet Explorer, Java) y el funcionamiento relacionado con el portal del Colegio de Registradores de España.",
       ],
       tags: [
         "Windows",
@@ -136,7 +142,6 @@ export default {
         "Internet Explorer",
         "Legalia",
         "Deposito Digital D2",
-        "Registradores",
       ],
     },
     {
@@ -144,8 +149,7 @@ export default {
       duration: "Mar. 2019 - Jun. 2019",
       subtitle: "Técnico informático. Contrato de prácticas",
       details: [
-        "Servicios de consultoría informática",
-        "Soporte remoto a la hora de resolver problemas informáticos a clientes, optimización de software e información, creación de políticas de gestión de ficheros...",
+        "Servicios de consultoría informática. Soporte remoto. Resolver problemas informáticos a clientes, optimización de software, políticas de gestión de ficheros...",
       ],
       tags: [
         "Windows",
@@ -164,7 +168,7 @@ export default {
       duration: "2020 - 2022",
       subtitle: "IES Juan de la Cierva, Madrid",
       details: [
-        "Desarrollo, implementación y mantenimiento de aplicaciones web. Programación Java, JavaScript, PHP. Diseño de interfaces web. Instalación de Sistemas en Red y despliegue de aplicaciones. Bases de datos SQL, lenguajes de marcas y entornos de desarrollo.",
+        "Desarrollo, implementación, diseño, instalación, despliegue y mantenimiento de aplicaciones web. Instalación de Sistemas en Red, bases de datos y entornos de desarrollo.",
       ],
       tags: [
         "Windows",
@@ -186,7 +190,7 @@ export default {
       duration: "2020 - actualidad",
       subtitle: "OpenWebinars, Platzi, Benowu, Crehana...",
       details: [
-        "Formación complementaria en varias plataformas de educación del ámbito tecnológico. Puedes consultarla en arturocode.github.io/cursos/",
+        "Cursos de informática, desarrollo web y multiplataforma. Puedes consultarlo en arturocode.github.io/cursos/",
       ],
       tags: [
         "React",
@@ -208,7 +212,7 @@ export default {
       duration: "2017 - 2019",
       subtitle: "IES Juan de la Cierva, Madrid",
       details: [
-        "Instalación y configuración de sistemas microinformáticos y redes. Montaje, mantenimiento y seguridad. Instalación y confguración de programas, servicios de ofimática y aplicaciones web.",
+        "Instalación y configuración de SO, programas, redes locales y servicios en red. Montaje y mantenimiento de equipos y seguridad informática.",
       ],
       tags: [
         "Windows",

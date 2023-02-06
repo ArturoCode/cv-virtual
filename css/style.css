@@ -31,6 +31,45 @@
   color: white;
 }
 
+/*FORMULARIO*/
+
+.field {
+  margin-bottom: 10px;
+}
+
+.field label {
+  display: block;
+  font-size: 14px;
+  color: #2c98f0;
+}
+
+.field input {
+  display: block;
+  min-width: 350px;
+  line-height: 1.5;
+  font-size: 14px;
+  color:grey;
+}
+
+textarea {
+  color:grey;
+  min-width: 350px;
+}
+
+::placeholder { 
+  color: grey; 
+}
+
+input[type="submit"] {
+  display: block;
+  padding: 6px 30px;
+  font-size: 14px;
+  background-color: #f9bf3f;
+  color: black;
+  font-weight: 500;
+  border: none
+}
+
 /*PÁGINAS*/
 
 body {
@@ -2196,6 +2235,7 @@ footer {
   justify-content: center;
   gap: 1em;
   border-radius: 5px;
+  color:black;
 }
 
 footer ul {
