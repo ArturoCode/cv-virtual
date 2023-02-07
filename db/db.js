@@ -40,10 +40,10 @@ export default {
       },
       {
         projectName: "Blog Tech ⚡ Super & Notion",
-        image: "",
+        image: "images/cv-blogcode.png",
         summary:
           "Blog minimalista. También puede ser una web completa fácil de mantener para un usuario común.",
-        preview: "#",
+        preview: "https://arturocodeblog.super.site/",
         techStack: ["Notion", "Super", "CSS", "Markdown"],
       },
     ],
