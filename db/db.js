@@ -10,7 +10,7 @@ export default {
       title: "English",
       skillName: "Inglés (C1 - FCE)",
       color: "1",
-      percentage: "90",
+      percentage: "85",
     },
   ],
   projects: {
@@ -19,7 +19,7 @@ export default {
         projectName: "ArturoCode | Desarrollador web",
         image: "images/cv-portfoliocode.png",
         summary: "Una página web / portfolio dedicada a mi trabajo, experiencia y formación",
-        preview: "https://arturocode.github.io/",
+        preview: "https://arturocode.vercel.app/",
         techStack: [
           "React",
           "JavaScript",
@@ -56,11 +56,11 @@ export default {
         techStack: ["HTML", "CSS", "JavaScript", "jQuery..."],
       },
       {
-        projectName: "Flights of a Dreamer",
-        image: "images/cv-flightsofadreamer.png",
-        summary: "Blog literario ganador de los Premios Blogger Lit Con 2017.",
-        preview: "http://www.flightsofadreamer.blogspot.com",
-        techStack: ["HTML", "CSS", "Blogger", "JavaScript"],
+        projectName: "Title | Book Social",
+        image: "",
+        summary: "Próximamente.",
+        preview: "#",
+        techStack: [""],
       },
       {
         projectName: "Landing Book Page",
@@ -114,7 +114,7 @@ export default {
     {
       title: "Acevedo S.L.",
       duration: "Sept. 2022 - actualidad",
-      subtitle: "Full Stack Developer. Contrato de prácticas",
+      subtitle: "Full Stack Developer",
       details: [
         "Desarrollo de aplicaciones web (frontend y backend) cloud native con MEAN stack. Herramientas de despliegue como Docker. Control de ramas, versiones y repositorios.",
       ],
